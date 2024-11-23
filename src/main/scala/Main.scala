@@ -1,62 +1,87 @@
-import org.apache.spark.sql.{SparkSession, DataFrame}
+import sttp.client3._
+import io.circe.generic.auto._
+import io.circe.parser._
+
+case class Article(title: String, description: Option[String])
+case class NewsApiResponse(articles: List[Article])
+
+object NewsApiFetcher {
+  val apiKey = "c7b577f9e26942659e1da163c162b7b2"
+  val newsApiUrl = "https://newsapi.org/v2/top-headlines"
+
+  def fetchNews(): List[Article] = {
+    val backend = HttpURLConnectionBackend()
+    val request = basicRequest
+      .get(uri"$newsApiUrl?country=us&category=business&apiKey=$apiKey")
+
+    val response = request.send(backend)
+    response.body match {
+      case Right(json) =>
+        decode[NewsApiResponse](json) match {
+          case Right(news) => news.articles
+          case Left(error) =>
+            println(s"Error decoding JSON: $error")
+            List.empty
+        }
+      case Left(error) =>
+        println(s"HTTP request failed: $error")
+        List.empty
+    }
+  }
+}
+
+import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.rdd.RDD
 
-object TwitterStreamSimulator {
+object NewsStreamingApp {
   def main(args: Array[String]): Unit = {
-    // Create Spark Session and Streaming Context
-    val spark = SparkSession.builder
-      .appName("TwitterStreamSimulator")
-      .master("local[*]")  // Run Spark locally with all cores
-      .getOrCreate()
-    
-    // Create StreamingContext with a batch interval of 10 seconds
-    val ssc = new StreamingContext(spark.sparkContext, Seconds(10))
+    val conf = new SparkConf().setAppName("NewsSentimentAnalysis").setMaster("local[*]")
+    val ssc = new StreamingContext(conf, Seconds(60))
 
-    // Path to the dataset (ensure correct file path)
-    val filePath = "h:/Desktop/Scala/twitter_project/twitter_dataset.csv" // Replace with actual file path
+    // Simulate a stream using a queue of RDDs
+    val newsQueue = scala.collection.mutable.Queue[RDD[Article]]()
 
-    // Read the entire dataset as a DataFrame
-    val fullData = spark.read
-      .option("header", "true")  // Assuming the file has a header
-      .csv(filePath)
+    // Create a DStream
+    val newsStream = ssc.queueStream(newsQueue)
 
-    val rows = fullData.collect() // Convert to an array for simulating chunks
-    val chunkSize = 100           // Number of rows per batch
-    var offset = 0                // Offset to track the chunk position
-
-    // Create a queue to hold simulated RDDs
-    val rddQueue = new scala.collection.mutable.Queue[RDD[String]]()
-
-    // Add simulated chunks to the queue in a separate thread
-    new Thread(() => {
-      while (offset < rows.length) {
-        // Extract the current chunk of rows
-        val chunk = rows.slice(offset, offset + chunkSize)
-        offset += chunkSize
-
-        // Convert the chunk into an RDD and add it to the queue
-        val chunkRdd = ssc.sparkContext.parallelize(chunk.map(_.toString))
-        rddQueue.enqueue(chunkRdd)
-
-        // Wait for the next batch interval (10 seconds)
-        Thread.sleep(10000)
-      }
-    }).start()
-
-    // Create a DStream from the queue
-    val simulatedStream = ssc.queueStream(rddQueue)
-
-    // Process the simulated stream
-    simulatedStream.foreachRDD { rdd =>
+    // Process the stream
+    newsStream.foreachRDD { rdd =>
       if (!rdd.isEmpty()) {
-        println("Processing new batch:")
-        rdd.collect().foreach(println) // Process each RDD (you can replace this with sentiment analysis or other logic)
+        val sentimentRdd = rdd.map(article => {
+          val sentiment = SentimentAnalyzer.analyze(article.title + " " + article.description.getOrElse(""))
+          (article.title, sentiment)
+        })
+        sentimentRdd.collect().foreach(println)
       }
     }
 
-    // Start Streaming
+    // Start fetching data and pushing it to the queue
+    new Thread(() => {
+      while (true) {
+        val newsData = NewsApiFetcher.fetchNews()
+        val newsRdd = ssc.sparkContext.parallelize(newsData)
+        newsQueue += newsRdd
+        Thread.sleep(60000)
+      }
+    }).start()
+
     ssc.start()
     ssc.awaitTermination()
+  }
+}
+
+object SentimentAnalyzer {
+  val positiveWords = Set("good", "great", "positive", "excellent", "happy")
+  val negativeWords = Set("bad", "worst", "negative", "poor", "sad")
+
+  def analyze(text: String): String = {
+    val words = text.toLowerCase.split("\\W+")
+    val positiveCount = words.count(positiveWords.contains)
+    val negativeCount = words.count(negativeWords.contains)
+
+    if (positiveCount > negativeCount) "Positive"
+    else if (negativeCount > positiveCount) "Negative"
+    else "Neutral"
   }
 }

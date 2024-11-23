@@ -1,0 +1,4 @@
+[debug] [twitter_project-test] Classpath dependencies List()
+[debug] [twitter_project-test] Dependencies from configurations List(twitter_project)
+[debug] Bloop wrote the configuration of project 'twitter_project-test' to 'H:\Desktop\Scala\twitter_project\.bloop\twitter_project-test.json'
+[success] Generated .bloop\twitter_project-test.json

@@ -1,4 +1,59 @@
 [0m[[0m[0minfo[0m] [0m[0mch.epfl.scala:twitter-project_2.13:1.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  +-com.softwaremill.sttp.client3:circe_2.13:3.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.softwaremill.sttp.client3:core_2.13:3.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.softwaremill.sttp.model:core_2.13:1.5.5 (evicted by: 1.6.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.softwaremill.sttp.model:core_2.13:1.6.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.softwaremill.sttp.shared:core_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.softwaremill.sttp.shared:ws_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-com.softwaremill.sttp.model:core_2.13:1.6.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-com.softwaremill.sttp.shared:core_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.softwaremill.sttp.client3:json-common_2.13:3.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.softwaremill.sttp.client3:core_2.13:3.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-com.softwaremill.sttp.model:core_2.13:1.5.5 (evicted by: 1.6.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-com.softwaremill.sttp.model:core_2.13:1.6.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-com.softwaremill.sttp.shared:core_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-com.softwaremill.sttp.shared:ws_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     +-com.softwaremill.sttp.model:core_2.13:1.6.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     +-com.softwaremill.sttp.shared:core_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-core_2.13:0.14.5 (evicted by: 0.14.6)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-core_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-io.circe:circe-numbers_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.typelevel:cats-core_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.typelevel:cats-kernel_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-parser_2.13:0.14.5 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-io.circe:circe-core_2.13:0.14.5 (evicted by: 0.14.6)[0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-io.circe:circe-core_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   | +-io.circe:circe-numbers_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   | +-org.typelevel:cats-core_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   |   +-org.typelevel:cats-kernel_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-io.circe:circe-jawn_2.13:0.14.5 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     +-io.circe:circe-core_2.13:0.14.5 (evicted by: 0.14.6)[0m
+[0m[[0m[0minfo[0m] [0m[0m  |     +-io.circe:circe-core_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     | +-io.circe:circe-numbers_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     | +-org.typelevel:cats-core_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     |   +-org.typelevel:cats-kernel_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  |     +-org.typelevel:jawn-parser_2.13:1.4.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  +-com.softwaremill.sttp.client3:core_2.13:3.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.softwaremill.sttp.model:core_2.13:1.5.5 (evicted by: 1.6.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.softwaremill.sttp.model:core_2.13:1.6.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.softwaremill.sttp.shared:core_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.softwaremill.sttp.shared:ws_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-com.softwaremill.sttp.model:core_2.13:1.6.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-com.softwaremill.sttp.shared:core_2.13:1.3.16 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  +-io.circe:circe-generic_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.chuusai:shapeless_2.13:2.3.10 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-core_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-io.circe:circe-numbers_2.13:0.14.6 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-org.typelevel:cats-core_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     +-org.typelevel:cats-kernel_2.13:2.9.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |     [0m
 [0m[[0m[0minfo[0m] [0m[0m  +-org.apache.spark:spark-core_2.13:3.5.0 [S][0m
 [0m[[0m[0minfo[0m] [0m[0m  | +-com.clearspring.analytics:stream:2.9.6[0m
 [0m[[0m[0minfo[0m] [0m[0m  | | +-org.slf4j:slf4j-api:1.7.10 (evicted by: 2.0.7)[0m
