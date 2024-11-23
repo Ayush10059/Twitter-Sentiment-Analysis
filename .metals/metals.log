@@ -1,0 +1,144 @@
+2024.11.23 13:26:57 INFO  Started: Metals version 1.4.1 in folders 'H:\Desktop\Scala\twitter_project' for client Visual Studio Code 1.95.3.
+2024.11.23 13:26:58 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.23 13:26:58 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:02 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:06 INFO  running 'C:\Users\CYTech Student\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CYTECH~1\AppData\Local\Temp\metals1938089017066997714\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.23 13:27:12 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:12 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:12 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:12 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:12 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:14 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:14 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:14 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.23 13:27:15 INFO  [info] welcome to sbt 1.10.5 (Eclipse Adoptium Java 17)
+2024.11.23 13:27:18 INFO  [info] loading settings for project twitter_project-build-build from metals.sbt ...
+2024.11.23 13:27:18 INFO  [info] loading project definition from H:\Desktop\Scala\twitter_project\project\project
+2024.11.23 13:27:24 INFO  [info] loading settings for project twitter_project-build from metals.sbt ...
+2024.11.23 13:27:24 INFO  [info] loading project definition from H:\Desktop\Scala\twitter_project\project
+2024.11.23 13:27:34 INFO  [success] Generated .bloop\twitter_project-build.json
+2024.11.23 13:27:34 INFO  [success] Total time: 10 s, completed Nov 23, 2024, 1:27:35 PM
+2024.11.23 13:27:37 INFO  [info] loading settings for project twitter_project from build.sbt ...
+2024.11.23 13:27:37 INFO  [info] set current project to hello-world (in build file:/H:/Desktop/Scala/twitter_project/)
+2024.11.23 13:27:38 INFO  [success] Generated .bloop\twitter_project-test.json
+2024.11.23 13:27:38 INFO  [success] Generated .bloop\twitter_project.json
+2024.11.23 13:27:38 INFO  [success] Total time: 1 s, completed Nov 23, 2024, 1:27:38 PM
+2024.11.23 13:27:38 INFO  time: ran 'sbt bloopInstall' in 32s
+2024.11.23 13:27:38 INFO  Attempting to connect to the build server...
+2024.11.23 13:27:38 INFO  Found a Bloop server running
+2024.11.23 13:27:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:27:39 INFO  Attempting to connect to the build server...
+2024.11.23 13:27:39 INFO  Found a Bloop server running
+2024.11.23 13:27:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:27:40 INFO  time: Connected to build server in 1.43s
+2024.11.23 13:27:40 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.23 13:27:40 INFO  time: Imported build in 0.13s
+2024.11.23 13:27:40 INFO  running doctor check
+2024.11.23 13:27:40 INFO  java targets: twitter_project-build, twitter_project, twitter_project-test
+2024.11.23 13:27:44 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.23 13:28:03 INFO  time: indexed workspace in 23s
+2024.11.23 13:28:04 INFO  compiling twitter_project (1 scala source)
+2024.11.23 13:28:10 INFO  time: compiled twitter_project in 6.23s
+2024.11.23 13:32:34 INFO  time: code lens generation in 1.77s
+2024.11.23 13:32:34 INFO  time: code lens generation in 3.26s
+Nov 23, 2024 1:33:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 326
+Nov 23, 2024 1:33:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 336
+2024.11.23 13:36:36 INFO  skipping build import with status 'Dismissed'
+2024.11.23 13:38:03 INFO  compiling twitter_project (1 scala source)
+2024.11.23 13:38:03 INFO  time: compiled twitter_project in 0.74s
+2024.11.23 13:38:15 INFO  compiling twitter_project (1 scala source)
+2024.11.23 13:38:15 INFO  time: compiled twitter_project in 0.71s
+2024.11.23 13:40:14 INFO  running 'C:\Users\CYTech Student\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CYTECH~1\AppData\Local\Temp\metals16712369810029703243\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.23 13:40:16 INFO  [info] welcome to sbt 1.10.5 (Eclipse Adoptium Java 17)
+2024.11.23 13:40:16 INFO  [info] loading settings for project twitter_project-build-build from metals.sbt ...
+2024.11.23 13:40:18 INFO  [info] loading project definition from H:\Desktop\Scala\twitter_project\project\project
+2024.11.23 13:40:19 INFO  [info] loading settings for project twitter_project-build from metals.sbt ...
+2024.11.23 13:40:19 INFO  [info] loading project definition from H:\Desktop\Scala\twitter_project\project
+2024.11.23 13:40:23 INFO  [success] Generated .bloop\twitter_project-build.json
+2024.11.23 13:40:23 INFO  [success] Total time: 4 s, completed Nov 23, 2024, 1:40:24 PM
+2024.11.23 13:40:28 INFO  [info] loading settings for project twitter_project from build.sbt ...
+2024.11.23 13:40:28 INFO  [info] set current project to Twitter-Project (in build file:/H:/Desktop/Scala/twitter_project/)
+2024.11.23 13:40:36 INFO  [success] Generated .bloop\twitter_project-test.json
+2024.11.23 13:40:36 INFO  [success] Generated .bloop\twitter_project.json
+2024.11.23 13:40:36 INFO  [success] Total time: 8 s, completed Nov 23, 2024, 1:40:36 PM
+2024.11.23 13:40:36 INFO  time: ran 'sbt bloopInstall' in 22s
+2024.11.23 13:40:36 INFO  Disconnecting from Bloop session...
+2024.11.23 13:40:36 INFO  Shut down connection with build server.
+2024.11.23 13:40:36 INFO  Shut down connection with build server.
+2024.11.23 13:40:36 INFO  Attempting to connect to the build server...
+2024.11.23 13:40:36 INFO  Found a Bloop server running
+2024.11.23 13:40:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:40:37 INFO  Attempting to connect to the build server...
+2024.11.23 13:40:37 INFO  Found a Bloop server running
+2024.11.23 13:40:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:40:37 INFO  time: Connected to build server in 1.57s
+2024.11.23 13:40:37 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.23 13:40:37 INFO  time: Imported build in 0.22s
+2024.11.23 13:40:37 INFO  running doctor check
+2024.11.23 13:40:37 INFO  java targets: twitter_project-build, twitter_project, twitter_project-test
+2024.11.23 13:41:10 INFO  time: indexed workspace in 31s
+2024.11.23 13:41:10 INFO  compiling twitter_project (1 scala source)
+2024.11.23 13:41:14 WARN  1 deprecation (since 2.13.0)
+2024.11.23 13:41:14 WARN  1 deprecation (since 2.13.3)
+2024.11.23 13:41:14 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.23 13:41:14 WARN  3 deprecations in total; re-run with -deprecation for details
+2024.11.23 13:41:14 INFO  time: compiled twitter_project in 4.26s
+2024.11.23 13:45:37 INFO  running 'C:\Users\CYTech Student\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CYTECH~1\AppData\Local\Temp\metals11547469097590104803\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.23 13:45:38 INFO  [info] welcome to sbt 1.10.5 (Eclipse Adoptium Java 17)
+2024.11.23 13:45:38 INFO  [info] loading settings for project twitter_project-build-build from metals.sbt ...
+2024.11.23 13:45:39 INFO  [info] loading project definition from H:\Desktop\Scala\twitter_project\project\project
+2024.11.23 13:45:39 INFO  [info] loading settings for project twitter_project-build from metals.sbt ...
+2024.11.23 13:45:39 INFO  [info] loading project definition from H:\Desktop\Scala\twitter_project\project
+2024.11.23 13:45:42 INFO  [success] Generated .bloop\twitter_project-build.json
+2024.11.23 13:45:42 INFO  [success] Total time: 2 s, completed Nov 23, 2024, 1:45:42 PM
+2024.11.23 13:45:44 INFO  [info] loading settings for project twitter_project from build.sbt ...
+2024.11.23 13:45:44 INFO  [info] set current project to Twitter-Project (in build file:/H:/Desktop/Scala/twitter_project/)
+2024.11.23 13:45:48 INFO  [success] Generated .bloop\twitter_project.json
+2024.11.23 13:45:48 INFO  [success] Generated .bloop\twitter_project-test.json
+2024.11.23 13:45:48 INFO  [success] Total time: 3 s, completed Nov 23, 2024, 1:45:48 PM
+2024.11.23 13:45:48 INFO  time: ran 'sbt bloopInstall' in 11s
+2024.11.23 13:45:48 INFO  Disconnecting from Bloop session...
+2024.11.23 13:45:48 INFO  Shut down connection with build server.
+2024.11.23 13:45:48 INFO  Shut down connection with build server.
+2024.11.23 13:45:48 INFO  Attempting to connect to the build server...
+2024.11.23 13:45:48 INFO  Found a Bloop server running
+2024.11.23 13:45:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:45:49 INFO  Attempting to connect to the build server...
+2024.11.23 13:45:49 INFO  Found a Bloop server running
+2024.11.23 13:45:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:45:49 INFO  time: Connected to build server in 1.12s
+2024.11.23 13:45:49 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.23 13:45:49 INFO  running doctor check
+2024.11.23 13:45:49 INFO  java targets: twitter_project-build, twitter_project, twitter_project-test
+2024.11.23 13:45:52 INFO  time: indexed workspace in 2.94s
+2024.11.23 13:46:57 INFO  skipping build import with status 'Installed'
+2024.11.23 13:46:57 INFO  Disconnecting from Bloop session...
+2024.11.23 13:46:57 INFO  Cancelling compilation on Bloop server
+2024.11.23 13:46:57 INFO  Shut down connection with build server.
+2024.11.23 13:46:57 INFO  no build target found for H:\Desktop\Scala\twitter_project\build.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.23 13:46:57 INFO  Shut down connection with build server.
+2024.11.23 13:46:57 INFO  Attempting to connect to the build server...
+2024.11.23 13:46:57 INFO  Found a Bloop server running
+2024.11.23 13:46:58 INFO  no build target found for H:\Desktop\Scala\twitter_project\build.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.23 13:46:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:46:58 INFO  Attempting to connect to the build server...
+2024.11.23 13:46:58 INFO  Found a Bloop server running
+2024.11.23 13:46:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.23 13:46:57 INFO  time: Connected to build server in 0.87s
+2024.11.23 13:46:57 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.23 13:46:57 INFO  running doctor check
+2024.11.23 13:46:57 INFO  java targets: twitter_project-build, twitter_project, twitter_project-test
+2024.11.23 13:47:02 INFO  time: indexed workspace in 3.25s
+2024.11.23 13:52:05 INFO  compiling twitter_project (1 scala source)
+2024.11.23 13:52:07 WARN  1 deprecation (since 2.13.0)
+2024.11.23 13:52:07 WARN  1 deprecation (since 2.13.3)
+2024.11.23 13:52:07 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.23 13:52:07 WARN  3 deprecations in total; re-run with -deprecation for details
+2024.11.23 13:52:07 INFO  time: compiled twitter_project in 1.89s
+2024.11.23 14:20:04 INFO  Shutting down server
+2024.11.23 14:20:04 INFO  shutting down Metals
+2024.11.23 14:20:04 INFO  Shut down connection with build server.
+2024.11.23 14:20:04 INFO  Shut down connection with build server.
+2024.11.23 14:20:04 INFO  Exiting server
