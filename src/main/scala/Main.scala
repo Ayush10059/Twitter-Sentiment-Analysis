@@ -1,74 +1,26 @@
-import org.apache.spark.sql.{SparkSession, DataFrame}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.apache.spark.rdd.RDD
+import config.MongoConfig
+import streaming.{TwitterDataSimulator, StreamingProcessor}
 
-object TwitterStreamSimulator {
+object MainApp {
   def main(args: Array[String]): Unit = {
-    // MongoDB Atlas connection URI
     val mongoUri = "mongodb+srv://AyushB:DrPepper@cluster0.nwhmh.mongodb.net/"
+    val database = "twitterDB"
+    val collection = "tweets"
+    val filePath = "twitter_dataset.csv"
+    val chunkSize = 100
 
-    // Create Spark Session and configure MongoDB connection
-    val spark = SparkSession.builder()
-      .appName("TwitterStreamSimulator")
-      .master("local[*]")
-      .config("spark.mongodb.write.connection.uri", mongoUri)
-      .config("spark.mongodb.write.database", "twitterDB")    // Specify the database name
-      .config("spark.mongodb.write.collection", "tweets")     // Specify the collection name
-      .getOrCreate()
-
-    // Create StreamingContext with a batch interval of 10 seconds
+    // Initialize Spark Session and Streaming Context
+    val spark = MongoConfig.getSparkSession("TwitterStreamSimulator", mongoUri, database, collection)
     val ssc = new StreamingContext(spark.sparkContext, Seconds(10))
 
-    // Path to the dataset
-    val filePath = "twitter_dataset.csv"
-
-    // Read the entire dataset as a DataFrame
-    val fullData = spark.read
-      .option("header", "true")
-      .csv(filePath)
-
-    // Drop all columns except 'Tweet_ID' and 'Text'
-    val filteredData = fullData.select("Text")
-
-    val rows = filteredData.collect() // Convert to an array for simulating chunks
-    val chunkSize = 1000               // Number of rows per batch
-    var offset = 0                    // Offset to track the chunk position
-
-    // Create a queue to hold simulated RDDs
-    val rddQueue = new scala.collection.mutable.Queue[RDD[String]]()
-
-    // Add simulated chunks to the queue in a separate thread
-    new Thread(() => {
-      while (offset < rows.length) {
-        // Extract the current chunk of rows
-        val chunk = rows.slice(offset, offset + chunkSize)
-        offset += chunkSize
-
-        // Convert the chunk into an RDD and add it to the queue
-        val chunkRdd = ssc.sparkContext.parallelize(chunk.map(_.toString))
-        rddQueue.enqueue(chunkRdd)
-
-        // Wait for the next batch interval (10 seconds)
-        Thread.sleep(10000)
-      }
-    }).start()
-
-    // Create a DStream from the queue
-    val simulatedStream = ssc.queueStream(rddQueue)
+    // Initialize Data Simulator
+    val simulator = new TwitterDataSimulator(spark, ssc, filePath, chunkSize)
+    simulator.startSimulation()
 
     // Process the simulated stream
-    simulatedStream.foreachRDD { rdd =>
-      if (!rdd.isEmpty()) {
-        import spark.implicits._
-        
-        val df = rdd.map(row => Map("tweets" -> row)).toDF()
-
-        df.write
-          .format("mongodb")
-          .mode("append")
-          .save()
-      }
-    }
+    val stream = simulator.getStream()
+    StreamingProcessor.processStream(spark, stream)
 
     // Start Streaming
     ssc.start()

@@ -8,7 +8,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	TwitterStreamSimulator$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TwitterStreamSimulator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	TwitterStreamSimulator$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	TwitterStreamSimulator$$typecreator6$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	TwitterStreamSimulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TwitterDataSimulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StreamingProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StreamingProcessor$$typecreator6$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StreamingProcessor.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: H:\Desktop\Scala\twitter_project\target\scala-2.13\classes.bak[0m
