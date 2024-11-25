@@ -1,0 +1,36 @@
+# Scala and Java
+*.class
+*.jar
+*.war
+*.ear
+
+# SBT
+.project
+.target/
+.cache/
+.history/
+lib_managed/
+src_managed/
+dist/
+plugins/
+
+# Metals (Scala language server)
+.metals/
+.bloop/
+.bsp/
+.ammonite/
+
+# Mill build tool
+.mill/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.bak
