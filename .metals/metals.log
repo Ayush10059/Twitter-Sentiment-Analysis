@@ -478,3 +478,152 @@ WARNING: Unmatched cancel notification for request id 1105
 2024.11.23 18:03:18 WARN  1 deprecation (since Spark 3.4.0)
 2024.11.23 18:03:18 WARN  2 deprecations in total; re-run with -deprecation for details
 2024.11.23 18:03:19 INFO  time: compiled twitter_project in 1.06s
+2024.11.23 18:11:01 INFO  Shutting down server
+2024.11.23 18:11:01 INFO  shutting down Metals
+2024.11.23 18:11:01 INFO  Shut down connection with build server.
+2024.11.23 18:11:01 INFO  Shut down connection with build server.
+2024.11.23 18:11:01 INFO  Exiting server
+2024.11.25 14:24:50 INFO  Started: Metals version 1.4.1 in folders 'H:\Desktop\Scala\twitter_project' for client Visual Studio Code 1.95.3.
+2024.11.25 14:24:52 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.25 14:24:52 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 14:24:57 INFO  no build target found for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 14:24:57 INFO  Attempting to connect to the build server...
+2024.11.25 14:24:57 INFO  Found a Bloop server running
+2024.11.25 14:24:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.25 14:24:58 INFO  Attempting to connect to the build server...
+2024.11.25 14:24:58 INFO  Found a Bloop server running
+2024.11.25 14:24:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at H:\Desktop\Scala\twitter_project\project\.metals\bsp.trace.json or C:\Users\CYTech Student\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.25 14:24:59 INFO  time: Connected to build server in 1.81s
+2024.11.25 14:24:59 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.25 14:25:00 INFO  time: Imported build in 0.54s
+2024.11.25 14:25:00 INFO  running doctor check
+2024.11.25 14:25:00 INFO  java targets: twitter_project-build, twitter_project, twitter_project-test
+2024.11.25 14:25:25 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.25 14:26:16 INFO  time: indexed workspace in 1m16s
+2024.11.25 14:36:19 INFO  compiling twitter_project (1 scala source)
+2024.11.25 14:36:22 WARN  1 deprecation (since 2.13.0)
+2024.11.25 14:36:22 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 14:36:22 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 14:36:22 INFO  time: compiled twitter_project in 3.15s
+2024.11.25 14:36:26 INFO  compiling twitter_project (1 scala source)
+2024.11.25 14:36:29 WARN  1 deprecation (since 2.13.0)
+2024.11.25 14:36:29 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 14:36:29 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 14:36:29 INFO  time: compiled twitter_project in 2.48s
+2024.11.25 14:43:18 INFO  compiling twitter_project (1 scala source)
+2024.11.25 14:43:18 INFO  time: compiled twitter_project in 0.55s
+2024.11.25 14:43:33 INFO  compiling twitter_project (1 scala source)
+2024.11.25 14:43:33 INFO  time: compiled twitter_project in 0.73s
+Nov 25, 2024 2:43:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 559
+Nov 25, 2024 2:44:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 25, 2024 2:45:35 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 25, 2024 2:45:41 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.11.25 14:45:42 INFO  compiling twitter_project (1 scala source)
+2024.11.25 14:45:44 WARN  1 deprecation (since 2.13.0)
+2024.11.25 14:45:44 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 14:45:44 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 14:45:44 INFO  time: compiled twitter_project in 1.68s
+2024.11.25 14:59:27 INFO  compiling twitter_project (1 scala source)
+2024.11.25 14:59:27 INFO  time: compiled twitter_project in 0.27s
+2024.11.25 15:01:33 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:01:33 INFO  time: compiled twitter_project in 0.54s
+2024.11.25 15:02:04 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:02:06 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:02:06 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:02:06 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:02:06 INFO  time: compiled twitter_project in 2.73s
+Nov 25, 2024 3:02:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1067
+2024.11.25 15:02:59 INFO  time: code lens generation in 3.11s
+Nov 25, 2024 3:07:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1155
+Nov 25, 2024 3:07:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1202
+2024.11.25 15:13:45 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:13:49 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:13:49 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:13:49 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:13:49 INFO  time: compiled twitter_project in 3.45s
+Nov 25, 2024 3:16:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1440
+2024.11.25 15:16:23 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:16:25 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:16:25 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:16:25 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:16:25 INFO  time: compiled twitter_project in 1.57s
+2024.11.25 15:22:16 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:22:19 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:22:19 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:22:19 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:22:19 INFO  time: compiled twitter_project in 2.83s
+Nov 25, 2024 3:23:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1672
+2024.11.25 15:24:16 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:24:18 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:24:18 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:24:18 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:24:18 INFO  time: compiled twitter_project in 1.62s
+Nov 25, 2024 3:24:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1843
+2024.11.25 15:24:34 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:24:37 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:24:37 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:24:37 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:24:37 INFO  time: compiled twitter_project in 2.45s
+2024.11.25 15:25:07 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:25:09 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:25:09 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:25:09 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:25:09 INFO  time: compiled twitter_project in 2.33s
+2024.11.25 15:26:21 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:26:23 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:26:23 WARN  1 deprecation (since 2.13.3)
+2024.11.25 15:26:23 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:26:23 WARN  3 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:26:23 INFO  time: compiled twitter_project in 2.65s
+Nov 25, 2024 3:26:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1979
+2024.11.25 15:29:03 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:29:04 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:29:04 WARN  1 deprecation (since 2.13.3)
+2024.11.25 15:29:04 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:29:04 WARN  3 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:29:04 INFO  time: compiled twitter_project in 1.3s
+2024.11.25 15:29:20 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:29:21 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:29:21 WARN  1 deprecation (since 2.13.3)
+2024.11.25 15:29:21 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:29:21 WARN  3 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:29:21 INFO  time: compiled twitter_project in 1.23s
+2024.11.25 15:29:24 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:29:24 WARN  Could not load snapshot text for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala
+2024.11.25 15:29:24 INFO  time: compiled twitter_project in 0.28s
+2024.11.25 15:29:24 WARN  Could not load snapshot text for H:\Desktop\Scala\twitter_project\src\main\scala\Main.scala
+2024.11.25 15:29:35 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:29:36 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:29:36 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:29:36 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:29:36 INFO  time: compiled twitter_project in 1.2s
+2024.11.25 15:30:11 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:30:12 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:30:12 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:30:12 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:30:12 INFO  time: compiled twitter_project in 1.24s
+Nov 25, 2024 3:32:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2611
+2024.11.25 15:32:34 INFO  compiling twitter_project (1 scala source)
+2024.11.25 15:32:37 WARN  1 deprecation (since 2.13.0)
+2024.11.25 15:32:37 WARN  1 deprecation (since Spark 3.4.0)
+2024.11.25 15:32:37 WARN  2 deprecations in total; re-run with -deprecation for details
+2024.11.25 15:32:37 INFO  time: compiled twitter_project in 2.93s
+Nov 25, 2024 3:38:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2692
+2024.11.25 15:45:21 INFO  Shutting down server
+2024.11.25 15:45:21 INFO  shutting down Metals
+2024.11.25 15:45:21 INFO  Shut down connection with build server.
+2024.11.25 15:45:21 INFO  Shut down connection with build server.
+2024.11.25 15:45:22 INFO  Exiting server
