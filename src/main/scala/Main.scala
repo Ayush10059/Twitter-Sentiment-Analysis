@@ -8,18 +8,21 @@ object MainApp {
     val database = "twitterDB"
     val collection = "tweets"
     val filePath = "twitter_dataset.csv"
-    val chunkSize = 100
+    val columnName = "text"
+    val chunkSize = 10000
 
     // Initialize Spark Session and Streaming Context
-    val spark = MongoConfig.getSparkSession("TwitterStreamSimulator", mongoUri, database, collection)
-    val ssc = new StreamingContext(spark.sparkContext, Seconds(10))
+    val spark = MongoConfig.getSparkSession("TwitterSentimentAnalysis", mongoUri, database, collection)
+    val ssc = new StreamingContext(spark.sparkContext, Seconds(60))
 
     // Initialize Data Simulator
     val simulator = new TwitterDataSimulator(spark, ssc, filePath, chunkSize)
-    simulator.startSimulation()
+    simulator.startSimulation(columnName)
 
     // Process the simulated stream
     val stream = simulator.getStream()
+
+    // Apply preprocessing
     StreamingProcessor.processStream(spark, stream)
 
     // Start Streaming

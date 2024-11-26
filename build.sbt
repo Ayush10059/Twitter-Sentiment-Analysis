@@ -13,5 +13,6 @@ libraryDependencies ++= Seq(
   "com.softwaremill.sttp.client3" %% "core" % "3.9.0",
   "com.softwaremill.sttp.client3" %% "circe" % "3.9.0",
   "io.circe" %% "circe-generic" % "0.14.6",
-  "org.mongodb.spark" %% "mongo-spark-connector" % "10.1.1"
+  "org.mongodb.spark" %% "mongo-spark-connector" % "10.1.1",
+  "org.apache.spark" %% "spark-mllib" % "3.4.0"
 )
