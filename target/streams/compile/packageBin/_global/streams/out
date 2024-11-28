@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging H:\Desktop\Scala\twitter_project\target\scala-2.13\twitter-project_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	analysis[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\analysis[0m
+[0m[[0m[0mdebug[0m] [0m[0m	analysis\SentimentAnalysis$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\analysis\SentimentAnalysis$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	analysis\SentimentAnalysis.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\analysis\SentimentAnalysis.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	config[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\config[0m
+[0m[[0m[0mdebug[0m] [0m[0m	config\MongoConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\config\MongoConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	config\MongoConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\config\MongoConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models\TrainModels$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\models\TrainModels$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models\TrainModels.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\models\TrainModels.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	processing[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\processing[0m
+[0m[[0m[0mdebug[0m] [0m[0m	processing\DataPreprocessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\processing\DataPreprocessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	processing\DataPreprocessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\processing\DataPreprocessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	streaming[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\streaming[0m
+[0m[[0m[0mdebug[0m] [0m[0m	streaming\TwitterDataSimulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\streaming\TwitterDataSimulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

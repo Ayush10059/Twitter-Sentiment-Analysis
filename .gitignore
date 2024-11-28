@@ -34,3 +34,6 @@ out/
 # Temporary Files
 *.tmp
 *.bak
+
+# Ignore model files
+models/
