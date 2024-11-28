@@ -16,12 +16,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\MainApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MainApp.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\MainApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	models[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\models[0m
-[0m[[0m[0mdebug[0m] [0m[0m	models\TrainModels$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\models\TrainModels$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	models\TrainModels.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\models\TrainModels.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	processing[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\processing[0m
 [0m[[0m[0mdebug[0m] [0m[0m	processing\DataPreprocessor$.class[0m
@@ -32,4 +26,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\streaming[0m
 [0m[[0m[0mdebug[0m] [0m[0m	streaming\TwitterDataSimulator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\streaming\TwitterDataSimulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	train[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\train[0m
+[0m[[0m[0mdebug[0m] [0m[0m	train\TrainModels$$typecreator10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\train\TrainModels$$typecreator10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	train\TrainModels$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\train\TrainModels$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	train\TrainModels.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  H:\Desktop\Scala\twitter_project\target\scala-2.13\classes\train\TrainModels.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
