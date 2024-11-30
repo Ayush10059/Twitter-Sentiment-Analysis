@@ -12,7 +12,8 @@ The project aims to implement a scalable and efficient real-time Twitter sentime
 ### **Key Features**
 - **Technologies Used**:  
   - Apache Spark (Streaming, MLlib, SQL, RDD)  
-  - Scala  
+  - Scala
+  - Databricks
   - MongoDB Atlas  
   - Power BI  
 - **Core Functionalities**:  
