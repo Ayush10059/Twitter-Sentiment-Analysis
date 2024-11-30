@@ -16,7 +16,7 @@ The project aims to implement a scalable and efficient real-time Twitter sentime
   - MongoDB Atlas  
   - Power BI  
 - **Core Functionalities**:  
-  - Real-time data processing with Spark Streaming.  
+  - Simulated Real-time data processing with Spark Streaming.  
   - Sentiment classification using machine learning models (Logistic Regression, Random Forest, Multilayer Perceptron).  
   - Data visualization and dashboard creation using Power BI.  
 
